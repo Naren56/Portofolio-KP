@@ -1,0 +1,57 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+.card:hover img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+
+/* === INDEX ===*/
+
+/* === INDEX ===*/
+
+/* === TIMELINE ===*/
+.timeline {
+  position: relative;
+  padding: 0 0 0 40px;
+  border-left: 4px solid #0d6efd;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -12px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background: #0d6efd;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px #0d6efd;
+}
+
+.timeline-content {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+/* === TIMELINE ===*/
